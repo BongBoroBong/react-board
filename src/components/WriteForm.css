@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.label-class {
+  flex:1;
+}
+
+.textarea-class {
+  flex:1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.button-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.create-button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 300px;
+  margin: auto;
+}
+
+.create-button:hover {
+  background: #3bc9db;
+}

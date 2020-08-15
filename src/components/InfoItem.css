@@ -1,0 +1,41 @@
+.item-form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-form:hover {
+  background: #e3fafc;
+}
+
+/* todo-item 사이에 윗 테두리 */
+.item-form + .item-form {
+  border-top: 1px solid #f1f3f5;
+}
+
+.item-info-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.info-margin {
+  margin:1rem;
+}
+
+.blue-button {
+  margin:1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 300px;
+}
